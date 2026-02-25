@@ -3,6 +3,7 @@ def revers_word(word: str) -> str:
     letters_only: list[str] = [char for char in word if char.isalpha()]
 
     result: list[str] = []
+
     for char in word:
         if char.isalpha():
             result.append(letters_only.pop())
