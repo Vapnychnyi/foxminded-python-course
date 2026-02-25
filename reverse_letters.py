@@ -14,7 +14,7 @@ def revers_word(word: str) -> str:
 
 def revers_text(text: str) -> str:
     """returns a reversed version words in given text"""
-    words: list[str] = text.split(" ")
+    words: list[str] = text.split()
 
     reversed_words: list[str] = [revers_word(word) for word in words]
 
