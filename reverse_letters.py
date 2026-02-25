@@ -11,6 +11,7 @@ def revers_word(word: str) -> str:
 
     return "".join(result)
 
+
 def revers_text(text: str) -> str:
     """returns a reversed version words in given text"""
     words: list[str] = text.split(" ")
@@ -19,7 +20,8 @@ def revers_text(text: str) -> str:
 
     return " ".join(reversed_words)
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     cases = [
         ("abcd efgh", "dcba hgfe"),
         ("a1bcd efg!h", "d1cba hgf!e"),
